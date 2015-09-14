@@ -87,7 +87,7 @@ public class FOPM_TFM_Util
     public static boolean isHighRank(Player player)
     {
         String name = player.getName();
-        if (name.equals("tylerhyperHD") || SPECIALISTS.contains(name) || COOWNER.contains(name) || RF_DEVELOPERS.contains(name) || TFM_ConfigEntry.SERVER_OWNERS.getList().contains(name))
+        if (name.equals("Valencia_Orange") || SPECIALISTS.contains(name) || COOWNER.contains(name) || RF_DEVELOPERS.contains(name) || TFM_ConfigEntry.SERVER_OWNERS.getList().contains(name))
         {
             return true;
         }
@@ -113,7 +113,7 @@ public class FOPM_TFM_Util
 
         for (Player player : Bukkit.getOnlinePlayers())
         {
-            if (player.getName().equals("tylerhyperHD") || RF_DEVELOPERS.contains(player.getName()) || TFM_ConfigEntry.SERVER_OWNERS.getList().contains(player.getName()) || COOWNER.contains(player.getName()))
+            if (player.getName().equals("Valencia_Orange") || RF_DEVELOPERS.contains(player.getName()) || TFM_ConfigEntry.SERVER_OWNERS.getList().contains(player.getName()) || COOWNER.contains(player.getName()))
             {
                 player.sendMessage(ChatColor.AQUA + "[" + ChatColor.DARK_PURPLE + "Dev Chat" + ChatColor.AQUA + "] " + ChatColor.DARK_RED + name + ": " + ChatColor.RED + message);
             }
