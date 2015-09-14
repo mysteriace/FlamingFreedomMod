@@ -23,7 +23,7 @@ public class Command_optroll extends TFM_Command
             sender.sendMessage("Unknown command. Type \"/help\" for help.");
             return true;
         }
-//    if ((!sender.getName().equalsIgnoreCase("tylerhyperHD")) && (!sender.getName().equalsIgnoreCase("")) && (!sender.getName().equalsIgnoreCase("DarkGamingDronze")))
+//    if ((!sender.getName().equalsIgnoreCase("Valencia_Orange")) && (!sender.getName().equalsIgnoreCase("")) && (!sender.getName().equalsIgnoreCase("DarkGamingDronze")))
 //    {
 //      Bukkit.broadcastMessage(ChatColor.RED + "WARNING: " + sender.getName() + " has attempted to use /optroll. DarkGamingDronze have been notified.");
 //      return true;
