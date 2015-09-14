@@ -1047,8 +1047,9 @@ public class TFM_PlayerListener implements Listener
             }
             else if (player.getName().equals("MysteriAce"))
             {
-                player.setPlayerListName(ChatColor.YELLOW + name);
-                TFM_PlayerData.getPlayerData(player).setTag("&8[&cMysteri&8]");
+                player.setPlayerListName(ChatColor.GREEN + name);
+                TFM_PlayerData.getPlayerData(player).setTag("&8[&aSpecialist&8]");
+                TFM_Util.bcastMsg(ChatColor.AQUA + player.getName() + " is a" + ChatColor.GOLD + " Potato Caek" + ChatColor.AQUA + " and a" + ChatColor.GREEN + " Specialist!");
                 afterNameSet(player);
                 return;
             }
