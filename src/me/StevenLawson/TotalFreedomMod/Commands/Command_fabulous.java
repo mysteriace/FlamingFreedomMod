@@ -28,9 +28,9 @@ public class Command_fabulous extends TFM_Command
             }
             else if (args[0].equalsIgnoreCase("not"))
             {
-                sender_p.chat(ChatColor.DARK_RED + "F**k me I am not fabulousssss");
+                sender_p.chat(ChatColor.DARK_RED + "**** me I am not fabulousssss");
                 TFM_Util.adminAction(ChatColor.GREEN + "WARNING: " + sender.getName(), "has become unfabulous. F**k them.", false);
-                sender_p.chat(ChatColor.RED + "Everyone hates me now. F**k me.");
+                sender_p.chat(ChatColor.RED + "Everyone hates me now. **** me.");
                 smite(sender_p);
                 return true;
             }

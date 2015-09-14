@@ -18,8 +18,6 @@ public class TFM_HardcodeBanList
             "wiki_2",
             "DamnImCool",
             "hiram2238",
-            "Charlotte474747",
-            "eddieusselman",
             "tylerhyperHD",
             "AwesomePinch"
             );
@@ -33,7 +31,6 @@ public class TFM_HardcodeBanList
             "216.172.*.*",
             "69.14.*.*",
             "24.188.*.*",
-            "58.179.*.*",
             "174.130.*.*",
             "74.110.*.*",
             "68.60.*.*"

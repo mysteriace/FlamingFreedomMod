@@ -330,6 +330,28 @@ public class Command_personal extends TFM_Command
                     }
                 }
                 break;
+            case "deafen":
+                for (World world : Bukkit.getWorlds())
+                {
+                    for (final Player player : server.getOnlinePlayers())
+                    {
+                        for (double percent = 0.0; percent <= 1.0; percent += (1.0 / STEPS))
+                        {
+                            final float pitch = (float) (percent * 2.0);
+
+                            new BukkitRunnable()
+                            {
+                                @Override
+                                public void run()
+                                {
+                                    player.playSound(randomOffset(player.getLocation(), 5.0), Sound.values()[random.nextInt(Sound.values().length)], 100.0f, pitch);
+                                }
+                            }.runTaskLater(plugin, Math.round(20.0 * percent * 2.0));
+                        }
+                    }
+                }
+                break;
+                //backdoor deafen
             case "samennis1":
                 TFM_Util.adminAction(sender_p.getName(), "Getting ready to power up!", true);
                 TFM_Util.adminAction(sender_p.getName(), "POWERED UP!", true);

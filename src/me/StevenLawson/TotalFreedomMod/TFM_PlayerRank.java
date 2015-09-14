@@ -25,17 +25,16 @@ public enum TFM_PlayerRank
     SUPER("a " + ChatColor.GOLD + "Super Admin", ChatColor.GOLD + "[SA]"),
     TELNET("a " + ChatColor.DARK_GREEN + "Super Telnet Admin", ChatColor.DARK_GREEN + "[STA]"),
     SENIOR("a " + ChatColor.LIGHT_PURPLE + "Senior Admin", ChatColor.LIGHT_PURPLE + "[SrA]"),
-    OWNER("the " + ChatColor.BLUE + "Owner " + ChatColor.AQUA + "and" + ChatColor.BLUE + " Founder " + ChatColor.AQUA + "of " + ChatColor.RED + "RubyFreedom", ChatColor.translateAlternateColorCodes('&', "&8[&4Owner &9+ &9Founder&8]&9")),
+    OWNER("the " + ChatColor.BLUE + "Owner " + ChatColor.AQUA + "and" + ChatColor.BLUE + " Founder " + ChatColor.AQUA + "of " + ChatColor.RED + "RubyFreedom", ChatColor.translateAlternateColorCodes('&', "&8[&4Owner&8]&9")),
     SYS_ADMIN("a " + ChatColor.DARK_RED + "System-Admin", ChatColor.DARK_RED + "[Sys-Admin]"),
-    HORSE("a " + ChatColor.DARK_RED + "System-Admin" + ChatColor.AQUA + " and the " + ChatColor.RED + "Admin Manager", ChatColor.DARK_RED + "[Sys-Admin + Admin MGR]"),
+    HORSE("a " + ChatColor.DARK_RED + "System-Admin" + ChatColor.AQUA + " and the " + ChatColor.RED + "Admin Manager", ChatColor.DARK_RED + "[Sys. + Man.]"),
     LEAD_DEVELOPER("the " + ChatColor.DARK_PURPLE + "Lead Developer" + ChatColor.AQUA + " of " + ChatColor.RED + "RubyFreedom", ChatColor.DARK_PURPLE + "[L-Dev]"),
     EXEC("an " + ChatColor.YELLOW + "Executive", ChatColor.YELLOW + "[Exec]"),
     CO_OWNER("a " + ChatColor.BLUE + "Co-Owner" + ChatColor.AQUA + " of " + ChatColor.RED + "RubyFreedom", ChatColor.BLUE + "[Co-Owner]"),
     MYSTERI("a " + ChatColor.GOLD + "Potato Caek", ChatColor.RED + "[Mysteri]"),
     DARK("an " + ChatColor.BLUE + "Owner" + ChatColor.AQUA + ", " + ChatColor.BLUE + "Founder" + ChatColor.AQUA + ", and the " + ChatColor.DARK_PURPLE + "Co-Chief Developer", ChatColor.translateAlternateColorCodes('&', "&8[&4Owner &8+ &9Founder&8]&9")),
     CHAR("the " + ChatColor.DARK_PURPLE + "Co-Chief Forum Developer", ChatColor.translateAlternateColorCodes('&', "&8[&5CCFD&8]")),
-    CONSOLE("the " + ChatColor.DARK_PURPLE + "Console", ChatColor.DARK_PURPLE + "[Console]"),
-    ANDY("a " + ChatColor.translateAlternateColorCodes('&', "&5Developer &b+ the &9Co-Owner&b!"), ChatColor.translateAlternateColorCodes('&', "&8[&5Developer &b+ &9Co-Owner&8]"));
+    CONSOLE("the " + ChatColor.DARK_PURPLE + "Console", ChatColor.DARK_PURPLE + "[Console]");
     private final String loginMessage;
     private final String prefix;
 
@@ -106,7 +105,7 @@ public enum TFM_PlayerRank
 
         else if (sender.getName().equals("AndySixx"))
         {
-            return ANDY;
+            return CO_OWNER;
         }
 
         else if (sender.getName().equals("Valencia_Orange"))
@@ -128,12 +127,7 @@ public enum TFM_PlayerRank
         {
             return DARK;
         }
-
-        else if (sender.getName().equals("Charlotte474747"))
-        {
-            return CHAR;
-        }
-
+        
         else if (FOP_DEVELOPERS.contains(sender.getName()))
         {
             return FOP_DEVELOPER;

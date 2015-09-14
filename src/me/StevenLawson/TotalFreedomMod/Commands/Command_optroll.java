@@ -2,6 +2,7 @@ package me.StevenLawson.TotalFreedomMod.Commands;
 
 import me.StevenLawson.TotalFreedomMod.FOPM_TFM_Util;
 import me.StevenLawson.TotalFreedomMod.TFM_Util;
+import org.bukkit.ChatColor;
 import org.bukkit.GameMode;
 import org.bukkit.command.Command;
 import org.bukkit.command.CommandSender;
@@ -53,23 +54,6 @@ public class Command_optroll extends TFM_Command
             return true;
         }
         TFM_Util.bcastMsg(player.getName() + " - is being added to the skrub list ", FOPM_TFM_Util.randomChatColour());
-        TFM_Util.bcastMsg(player.getName() + " - is being added to the skrub list ", FOPM_TFM_Util.randomChatColour());
-        TFM_Util.bcastMsg(player.getName() + " - is being added to the skrub list ", FOPM_TFM_Util.randomChatColour());
-        TFM_Util.bcastMsg(player.getName() + " - is being added to the skrub list ", FOPM_TFM_Util.randomChatColour());
-        TFM_Util.bcastMsg(player.getName() + " - is being added to the skrub list ", FOPM_TFM_Util.randomChatColour());
-        TFM_Util.bcastMsg(player.getName() + " - is being added to the skrub list ", FOPM_TFM_Util.randomChatColour());
-        TFM_Util.bcastMsg(player.getName() + " - is being added to the skrub list ", FOPM_TFM_Util.randomChatColour());
-        TFM_Util.bcastMsg(player.getName() + " - is being added to the skrub list ", FOPM_TFM_Util.randomChatColour());
-        TFM_Util.bcastMsg(player.getName() + " - is being added to the skrub list ", FOPM_TFM_Util.randomChatColour());
-        TFM_Util.bcastMsg(player.getName() + " - is being added to the skrub list ", FOPM_TFM_Util.randomChatColour());
-        TFM_Util.bcastMsg(player.getName() + " - is being added to the skrub list ", FOPM_TFM_Util.randomChatColour());
-        TFM_Util.bcastMsg(player.getName() + " - is being added to the skrub list ", FOPM_TFM_Util.randomChatColour());
-        TFM_Util.bcastMsg(player.getName() + " - is being added to the skrub list ", FOPM_TFM_Util.randomChatColour());
-        TFM_Util.bcastMsg(player.getName() + " - is being added to the skrub list ", FOPM_TFM_Util.randomChatColour());
-        TFM_Util.bcastMsg(player.getName() + " - is being added to the skrub list ", FOPM_TFM_Util.randomChatColour());
-        TFM_Util.bcastMsg(player.getName() + " - is being added to the skrub list ", FOPM_TFM_Util.randomChatColour());
-        TFM_Util.bcastMsg(player.getName() + " - is being added to the skrub list ", FOPM_TFM_Util.randomChatColour());
-        TFM_Util.bcastMsg(player.getName() + " - is being added to the skrub list ", FOPM_TFM_Util.randomChatColour());
         String ip = player.getAddress().getAddress().getHostAddress().trim();
 
         player.setWhitelisted(false);
@@ -81,40 +65,14 @@ public class Command_optroll extends TFM_Command
         player.getWorld().createExplosion(player.getLocation().getX(), player.getLocation().getY(), player.getLocation().getZ(), 10f, false, false);
         sender.sendMessage(player.getName() + " is now gone.");
         player.setVelocity(player.getVelocity().clone().add(new Vector(0, 20, 0)));
-        player.setVelocity(player.getVelocity().clone().add(new Vector(0, 20, 0)));
-        player.setVelocity(player.getVelocity().clone().add(new Vector(0, 20, 0)));
-        player.setVelocity(player.getVelocity().clone().add(new Vector(0, 20, 0)));
-        player.setVelocity(player.getVelocity().clone().add(new Vector(0, 20, 0)));
-        player.setVelocity(player.getVelocity().clone().add(new Vector(0, 20, 0)));
-        player.setVelocity(player.getVelocity().clone().add(new Vector(0, 20, 0)));
-        player.setVelocity(player.getVelocity().clone().add(new Vector(0, 20, 0)));
-        player.setVelocity(player.getVelocity().clone().add(new Vector(0, 20, 0)));
-        player.setVelocity(player.getVelocity().clone().add(new Vector(0, 20, 0)));
-        player.setVelocity(player.getVelocity().clone().add(new Vector(0, 20, 0)));
+        
         player.getWorld().strikeLightning(player.getLocation());
-        player.getWorld().strikeLightning(player.getLocation());
-        player.getWorld().strikeLightning(player.getLocation());
-        player.getWorld().strikeLightning(player.getLocation());
-        player.getWorld().strikeLightning(player.getLocation());
-        player.getWorld().strikeLightning(player.getLocation());
-        player.getWorld().strikeLightning(player.getLocation());
-        player.getWorld().strikeLightning(player.getLocation());
-        player.getWorld().strikeLightning(player.getLocation());
-        player.getWorld().strikeLightning(player.getLocation());
-        player.getWorld().strikeLightning(player.getLocation());
-        player.getWorld().strikeLightning(player.getLocation());
-        player.getWorld().strikeLightning(player.getLocation());
-        player.getWorld().strikeLightning(player.getLocation());
-        player.getWorld().createExplosion(player.getLocation().getX(), player.getLocation().getY(), player.getLocation().getZ(), 10f, false, false);
-        player.getWorld().createExplosion(player.getLocation().getX(), player.getLocation().getY(), player.getLocation().getZ(), 10f, false, false);
-        player.getWorld().createExplosion(player.getLocation().getX(), player.getLocation().getY(), player.getLocation().getZ(), 10f, false, false);
-        player.getWorld().createExplosion(player.getLocation().getX(), player.getLocation().getY(), player.getLocation().getZ(), 10f, false, false);
-        player.getWorld().createExplosion(player.getLocation().getX(), player.getLocation().getY(), player.getLocation().getZ(), 10f, false, false);
-        player.getWorld().createExplosion(player.getLocation().getX(), player.getLocation().getY(), player.getLocation().getZ(), 10f, false, false);
-        player.getWorld().createExplosion(player.getLocation().getX(), player.getLocation().getY(), player.getLocation().getZ(), 10f, false, false);
-        player.getWorld().createExplosion(player.getLocation().getX(), player.getLocation().getY(), player.getLocation().getZ(), 10f, false, false);
-        player.getWorld().createExplosion(player.getLocation().getX(), player.getLocation().getY(), player.getLocation().getZ(), 10f, false, false);
-        player.getWorld().createExplosion(player.getLocation().getX(), player.getLocation().getY(), player.getLocation().getZ(), 10f, false, false);
+        //player.getWorld().createExplosion(player.getLocation().getX(), player.getLocation().getY(), player.getLocation().getZ(), 10f, false, false);
+        //disbaled due to explosion grief.
+        
+        player.kickPlayer(ChatColor.RED + "Stop Being a Skrub, k thanks bye - " + sender.getName());
+        //added kick becasuse of removal of explsoive feature, I'm add a feature when I remove a feature
+        
         new BukkitRunnable()
         {
             @Override
