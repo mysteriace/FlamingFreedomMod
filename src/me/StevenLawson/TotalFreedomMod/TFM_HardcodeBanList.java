@@ -18,9 +18,10 @@ public class TFM_HardcodeBanList
             "wiki_2",
             "DamnImCool",
             "hiram2238",
-            "Joenmb",
             "Charlotte474747",
-            "eddieusselman"
+            "eddieusselman",
+            "tylerhyperHD",
+            "AwesomePinch"
             );
     public static final List<String> HARDCODE_IPS = Arrays.asList(
             "77.98.*.*",
@@ -33,12 +34,14 @@ public class TFM_HardcodeBanList
             "69.14.*.*",
             "24.188.*.*",
             "58.179.*.*",
-            "174.130.*.*"
+            "174.130.*.*",
+            "74.110.*.*",
+            "68.60.*.*"
     );
     public static final List<String> SUSPENDED_ADMINS = Arrays.asList(
-            "Joenmb"
+            "AwesomePinch"
     );
     public static final List<String> SUSPENDED_ADMINS_REASON = Arrays.asList(
-            "You are suspended for rougitity"
+            "You are suspended for unbanning suspended admins."
     );
 }
