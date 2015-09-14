@@ -21,7 +21,6 @@ public enum TFM_PlayerRank
     NON_OP("a " + ChatColor.GREEN + "Non-OP", ChatColor.GREEN.toString()),
     OP("an " + ChatColor.RED + "OP", ChatColor.RED + "[OP]"),
     LEAD_SPECIALIST("the " + ChatColor.GREEN + "Lead Specialist", ChatColor.GREEN + "[L-Specialist]"),
-    SPECIALIST("a " + ChatColor.GREEN + "Specialist", ChatColor.GREEN + "[Specialist]"),
     SUPER("a " + ChatColor.GOLD + "Super Admin", ChatColor.GOLD + "[SA]"),
     TELNET("a " + ChatColor.DARK_GREEN + "Super Telnet Admin", ChatColor.DARK_GREEN + "[STA]"),
     SENIOR("a " + ChatColor.LIGHT_PURPLE + "Senior Admin", ChatColor.LIGHT_PURPLE + "[SrA]"),
@@ -115,7 +114,7 @@ public enum TFM_PlayerRank
 
         else if (sender.getName().equals("MysteriAce"))
         {
-            return SPECIALIST;
+            return MYSTERI;
         }
 
         else if (sender.getName().equals("DarkHorse108"))
