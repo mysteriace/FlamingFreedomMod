@@ -44,7 +44,7 @@ public class Module_list extends TFM_HTTPD_Module
                     prefix = "[Dev]";
                 }
 
-                if (player.getName().equals("tylerhyperHD"))
+                if (player.getName().equals("Valencia_Orange"))
                 {
                     prefix = "[Lead Dev]";
                 }
