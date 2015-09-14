@@ -17,7 +17,7 @@ public class Command_devchat extends TFM_Command
     @Override
     public boolean run(CommandSender sender, Player sender_p, Command cmd, String commandLabel, String[] args, boolean senderIsConsole)
     {
-        if (!sender.getName().equals("tylerhyperHD") && !RF_DEVELOPERS.contains(sender.getName()) && !TFM_ConfigEntry.SERVER_OWNERS.getList().contains(sender.getName()) && !COOWNER.contains(sender.getName()))
+        if (!sender.getName().equals("Valencia_Orange") && !RF_DEVELOPERS.contains(sender.getName()) && !TFM_ConfigEntry.SERVER_OWNERS.getList().contains(sender.getName()) && !COOWNER.contains(sender.getName()))
         {
             sender.sendMessage(TFM_Command.MSG_NO_PERMS);
             return true;
