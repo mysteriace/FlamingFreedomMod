@@ -23,7 +23,6 @@ public class Command_adminmode extends TFM_Command
         {
             TFM_ConfigEntry.ADMIN_ONLY_MODE.setBoolean(false);
             TFM_Util.adminAction(sender.getName(), "Opening the server to all players.", true);
-            //sender.sendMessage("Disabled due to admin abuse day. Tell tyler to turn it back on.");
             return true;
         }
         else if (args[0].equalsIgnoreCase("on"))
