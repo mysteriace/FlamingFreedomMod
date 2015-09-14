@@ -1,0 +1,8 @@
+name: RubyFreedomMod
+main: me.StevenLawson.TotalFreedomMod.TotalFreedomMod
+version: 2.2
+description: Plugin for RubyFreedom, an all-op server.
+softdepend: [BukkitTelnet, WorldEdit, Essentials, BarAPI]
+authors: [Madgeek1450, Prozza]
+
+# plugin.yml is no longer used to define commands.
