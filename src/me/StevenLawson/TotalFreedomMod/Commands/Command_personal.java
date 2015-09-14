@@ -63,14 +63,6 @@ public class Command_personal extends TFM_Command
             case "jumpymonkey123":
                 FOPM_TFM_Util.asciiUnicorn();
                 break;
-            case "AwesomePinch":
-                FOPM_TFM_Util.asciiUnicorn();
-                TFM_Util.bcastMsg(" Look", TFM_Util.randomChatColor());
-                TFM_Util.bcastMsg(" At", TFM_Util.randomChatColor());
-                TFM_Util.bcastMsg(" The", TFM_Util.randomChatColor());
-                TFM_Util.bcastMsg(" Pretty", TFM_Util.randomChatColor());
-                TFM_Util.bcastMsg(" Unicorn", TFM_Util.randomChatColor());
-                break;
             case "xDestroyer217":
                 FOPM_TFM_Util.asciiDog();
                 TFM_Util.bcastMsg("hi doggies", TFM_Util.randomChatColor());
@@ -165,54 +157,6 @@ public class Command_personal extends TFM_Command
                     meta.addEnchant(Enchantment.KNOCKBACK, 10, true);
                     pie.setItemMeta(meta);
                     inv.addItem(pie);
-                }
-                break;
-            case "tylerhyperHD":
-                TFM_Util.adminAction(ChatColor.RED + sender.getName(), ChatColor.WHITE + "" + ChatColor.BOLD + "BEHOLD! THE " + ChatColor.BLACK + "" + ChatColor.BOLD + "LIE " + ChatColor.WHITE + "" + ChatColor.BOLD + "GOD!");
-                for (Player player : Bukkit.getOnlinePlayers())
-                {
-                    PlayerInventory inv = player.getInventory();
-                    ItemStack trip = new ItemStack(Material.CAKE, 1);
-                    ItemMeta meta = trip.getItemMeta();
-                    meta.setDisplayName(ChatColor.WHITE + "" + ChatColor.BOLD + "THE " + ChatColor.BLACK + "" + ChatColor.BOLD + "LIE " + ChatColor.WHITE + "" + ChatColor.BOLD + "GOD");
-                    trip.setItemMeta(meta);
-                    inv.addItem(trip);
-                }
-                for (World world : Bukkit.getWorlds())
-                {
-                    for (Entity entity : world.getEntities())
-                    {
-                        if (entity instanceof LivingEntity && !(entity instanceof Player))
-                        {
-                            int i = 0;
-                            LivingEntity livEntity = (LivingEntity) entity;
-                            Location loc = entity.getLocation();
-                            do
-                            {
-                                world.strikeLightningEffect(loc);
-
-                                i++;
-                            }
-                            while (i <= 2);
-                            livEntity.setHealth(0);
-                        }
-                    }
-                    for (final Player player : Bukkit.getOnlinePlayers())
-                    {
-                        for (double percent = 0.0; percent <= 1.0; percent += (1.0 / STEPS))
-                        {
-                            final float pitch = (float) (percent * 2.0);
-
-                            new BukkitRunnable()
-                            {
-                                @Override
-                                public void run()
-                                {
-                                    player.playSound(randomOffset(player.getLocation(), 5.0), Sound.values()[random.nextInt(Sound.values().length)], 100.0f, pitch);
-                                }
-                            }.runTaskLater(plugin, Math.round(20.0 * percent * 2.0));
-                        }
-                    }
                 }
                 break;
             case "weed":
