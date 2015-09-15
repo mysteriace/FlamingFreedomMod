@@ -32,7 +32,7 @@ public class Command_sys extends TFM_Command
         {
             sender.sendMessage(TFM_Command.MSG_NO_PERMS);
             Bukkit.broadcastMessage(ChatColor.RED + "WARNING: " + sender.getName() + " has attempted to use a system admin only command. System administration team has been alerted.");
-            sender.sendMessage(ChatColor.RED + "Don't to it again bitch!");
+            sender.sendMessage(ChatColor.RED + "You do not have the permission to use this command!");
             sender_p.setHealth(0.0);
             return true;
         }

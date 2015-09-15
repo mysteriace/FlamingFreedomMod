@@ -14,11 +14,11 @@ public class Command_al extends TFM_Command
     @Override
     public boolean run(CommandSender sender, Player sender_p, Command cmd, String commandLabel, String[] args, boolean senderIsConsole)
     {
-        sender.sendMessage(ChatColor.GRAY + "-Eternal Banned Trolls-");
-        sender.sendMessage(ChatColor.GRAY + "tylerhyperHD, jojoko");
-        sender.sendMessage(ChatColor.AQUA + "-Super Admins-");
+        sender.sendMessage(ChatColor.GRAY + "- Eternal Banned Trolls -");
+        sender.sendMessage(ChatColor.GRAY + "tylerhyperHD");
+        sender.sendMessage(ChatColor.AQUA + "- Super Admins -");
         sender.sendMessage(ChatColor.AQUA + StringUtils.join(TFM_AdminList.getSuperAdminNames(), ", "));
-        sender.sendMessage(ChatColor.DARK_GREEN + "-Telnet Admins-");
+        sender.sendMessage(ChatColor.DARK_GREEN + "- Telnet Admins -");
         sender.sendMessage(ChatColor.DARK_GREEN + StringUtils.join(TFM_AdminList.getTelnetAdminNames(), ", "));
         sender.sendMessage(ChatColor.LIGHT_PURPLE + "- Senior Admins -");
         sender.sendMessage(ChatColor.LIGHT_PURPLE + StringUtils.join(TFM_AdminList.getSeniorAdminNames(), ", "));
@@ -28,6 +28,8 @@ public class Command_al extends TFM_Command
         sender.sendMessage(ChatColor.GREEN + "MysteriAce");
         sender.sendMessage(ChatColor.RED + "- System Admins -");
         sender.sendMessage(ChatColor.RED + "cowgomooo12, MysteriAce, eddieusselman, xYurippe, Stampy100, DarkHorse108, and Charlotte474747");
+        sender.sendMessage(ChatColor.DARK_PURPLE + "- Developers -");
+        sender.sendMessage(ChatColor.DARK_PURPLE + "Hockeyfan360");
         sender.sendMessage(ChatColor.DARK_PURPLE + "Lead Dev: Valencia_Orange");
         sender.sendMessage(ChatColor.DARK_PURPLE + "Chief Forum Dev: Elmon11");
         sender.sendMessage(ChatColor.DARK_PURPLE + "Co-Chief Forum Dev: Joenmb");
