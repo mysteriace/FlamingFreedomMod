@@ -23,6 +23,7 @@ public class Command_cleanup extends TFM_Command
         server.dispatchCommand(sender, "tfm reload");
         server.dispatchCommand(sender, "saconfig clean");
         server.dispatchCommand(sender, "cc");
+        server.dispatchCommand(sender, "say Server Cleanup: Now Complete");
         return true;
     }
 }
