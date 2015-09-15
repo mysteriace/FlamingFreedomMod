@@ -51,7 +51,7 @@ public class Command_rfm extends TFM_Command
         }
 
         TFM_Util.playerMsg(sender_p, " §4§lRubyFreedomMod:", ChatColor.GOLD);
-        TFM_Util.playerMsg(sender_p, "Made by: Valencia_Orange, DarkGamingDronze, tylerhyperHD, Hockeyfan360, and falceso", ChatColor.GREEN);
+        TFM_Util.playerMsg(sender_p, "Made by: Valencia_Orange, DarkGamingDronze, tylerhyperHD, Hockeyfan360, AwesomePinch, Alco_Rs11,and falceso", ChatColor.GREEN);
         TFM_Util.playerMsg(sender_p, "§5Made in the image of the §9TotalFreedomMod §5but with more §6features §5and §eflexibility.", ChatColor.GOLD);
         TFM_Util.playerMsg(sender_p, "§9This is RubyFreedomMod v" + plugin.getDescription().getVersion(), ChatColor.GOLD);
 
