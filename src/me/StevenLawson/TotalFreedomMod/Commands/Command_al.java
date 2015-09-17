@@ -29,8 +29,9 @@ public class Command_al extends TFM_Command
         sender.sendMessage(ChatColor.RED + "- System Admins -");
         sender.sendMessage(ChatColor.RED + "cowgomooo12, MysteriAce, eddieusselman, xYurippe, Stampy100, DarkHorse108, and Charlotte474747");
         sender.sendMessage(ChatColor.DARK_PURPLE + "- Developers -");
-        sender.sendMessage(ChatColor.DARK_PURPLE + "Hockeyfan360");
         sender.sendMessage(ChatColor.DARK_PURPLE + "Lead Dev: Valencia_Orange");
+        sender.sendMessage(ChatColor.DARK_PURPLE + "Dev Team Manager: DarkGamingDronze");
+        sender.sendMessage(ChatColor.DARK_PURPLE + "Developers: Hockeyfan360 and falceso");
         sender.sendMessage(ChatColor.DARK_PURPLE + "Chief Forum Dev: Elmon11");
         sender.sendMessage(ChatColor.DARK_PURPLE + "Co-Chief Forum Dev: Joenmb");
         sender.sendMessage(ChatColor.RED + "Admin Manager: DarkHorse108");
