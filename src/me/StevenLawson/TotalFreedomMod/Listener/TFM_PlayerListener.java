@@ -1039,7 +1039,7 @@ public class TFM_PlayerListener implements Listener
             {
                 player.setPlayerListName(ChatColor.YELLOW + name);
                 TFM_PlayerData.getPlayerData(player).setTag("&8[&cMysteri&8]");
-                TFM_Util.bcastMsg("MysteriAce might not respond to messages due to FoxFreedom development", ChatColor.DARK_BLUE);
+                TFM_Util.bcastMsg("MysteriAce might not respond to messages due to FlamingFreedom development", ChatColor.DARK_BLUE);
                 afterNameSet(player);
                 return;
             }
